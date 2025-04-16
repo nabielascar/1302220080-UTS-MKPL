@@ -17,7 +17,7 @@ public class TaxFunction {
 
 		if (isMarried) {
 			tax = (int) Math.round(0.05 * (((monthlySalary + otherMonthlyIncome) * numberOfMonthWorking) - deductible
-					- (54000000 + 4500000 + (numberOfChildren * 1500000))));
+					- (54000000 + 4500000 + (numberOfChildren * 4500000))));
 		} else {
 			tax = (int) Math.round(
 					0.05 * (((monthlySalary + otherMonthlyIncome) * numberOfMonthWorking) - deductible - 54000000));
